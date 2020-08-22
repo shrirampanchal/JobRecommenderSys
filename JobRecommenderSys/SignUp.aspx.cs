@@ -10,7 +10,7 @@ namespace JobRecommenderSys
 {
     public partial class SignUp : System.Web.UI.Page
     {
-
+        //read function disabled
         SqlConnection connection = new SqlConnection("Server=(local);Database=JobRecommenderDb;Integrated Security=true");
 
         string username,email, pwd, city, contactno;
@@ -37,7 +37,7 @@ namespace JobRecommenderSys
 
             if (connection.State == System.Data.ConnectionState.Open)
             {
-                readValues();
+               // readValues();
 
                 SqlCommand sqlCommand = new SqlCommand("insert into RecruiterInfo(username,email,password,city,contactno) values('"+username+"','"+email+"','"+pwd+"','"+city+"','"+contactno+"')", connection);
                int x = sqlCommand.ExecuteNonQuery();
