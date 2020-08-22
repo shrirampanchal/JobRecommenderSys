@@ -10,6 +10,7 @@ namespace JobRecommenderSys
 {
     public partial class SignUp : System.Web.UI.Page
     {
+
         //read function disabled
         SqlConnection connection = new SqlConnection("Server=(local);Database=JobRecommenderDb;Integrated Security=true");
 
