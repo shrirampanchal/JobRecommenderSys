@@ -22,10 +22,9 @@
         <div id="header" >
 
             JOB RECOMMENDER SYSTEM</div>
-            
+
         <div id="content">
             <h1>HI aditya pc</h1>
-            <h1>HI this change is from A</h1>
             <br />
             <br />
             <table align="center">
